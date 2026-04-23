@@ -89,3 +89,63 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+/* =========================
+   MOBILE VIEW (PHONE)
+   ========================= */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  /* HERO STACK */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .profile {
+    width: 180px;
+    margin-top: 20px;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 50px 20px;
+  }
+
+  /* GRID becomes single column feel */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS BOX */
+  .box {
+    font-size: 14px;
+  }
+
+  /* FORM */
+  .form {
+    width: 100%;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  /* MODAL */
+  .modal-box {
+    width: 90%;
+    margin-top: 30%;
+  }
+}
